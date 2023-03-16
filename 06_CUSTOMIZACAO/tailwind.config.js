@@ -18,6 +18,9 @@ module.exports = {
         },
       },
     },
+    spacing: {
+      '50': '20rem'
+    },
   },
   plugins: [],
 }
