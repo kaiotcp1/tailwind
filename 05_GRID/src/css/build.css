@@ -529,12 +529,24 @@ video {
   display: grid;
 }
 
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .bg-red-300 {
@@ -555,4 +567,9 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
 }
