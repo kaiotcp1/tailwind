@@ -562,6 +562,10 @@ video {
   margin: 6rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .h-40 {
   height: 10rem;
 }
@@ -704,4 +708,48 @@ video {
 
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.placeholder-red-500::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-red-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-blue-500::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-blue-500::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-opacity-60::-moz-placeholder {
+  --tw-placeholder-opacity: 0.6;
+}
+
+.placeholder-opacity-60::placeholder {
+  --tw-placeholder-opacity: 0.6;
+}
+
+.placeholder-opacity-25::-moz-placeholder {
+  --tw-placeholder-opacity: 0.25;
+}
+
+.placeholder-opacity-25::placeholder {
+  --tw-placeholder-opacity: 0.25;
+}
+
+.placeholder-opacity-100::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+}
+
+.placeholder-opacity-100::placeholder {
+  --tw-placeholder-opacity: 1;
 }
